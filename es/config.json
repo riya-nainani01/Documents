@@ -1,0 +1,21 @@
+{
+  "appName": "GitConnectorTest",
+  "version": "1.0.0",
+  "environment": "desarrollo",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "basedetest",
+    "ssl": false
+  },
+  "logging": {
+    "level": "depuración",
+    "format": "json",
+    "output": "stdout"
+  },
+  "features": {
+    "enableCache": true,
+    "maxRetries": 3,
+    "timeoutMs": 5000
+  }
+}

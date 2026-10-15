@@ -1,0 +1,21 @@
+{
+  "appName": "GitConnectorTest",
+  "version": "1.0.0",
+  "environment": "विकास",
+  "database": {
+    "host": "लोकलहोस्ट",
+    "port": 5432,
+    "name": "टेस्टडाटाबेस",
+    "ssl": false
+  },
+  "logging": {
+    "level": "डीबग",
+    "format": "json",
+    "output": "स्टैंडर्डआउटपुट"
+  },
+  "features": {
+    "enableCache": true,
+    "maxRetries": 3,
+    "timeoutMs": 5000
+  }
+}

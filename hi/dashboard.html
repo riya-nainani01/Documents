@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Git Connector Test</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; }
+        .header { background: #16213e; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+        .header h1 { font-size: 1.4em; color: #e94560; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 30px 40px; }
+        .card { background: #16213e; border-radius: 10px; padding: 25px; border-left: 4px solid #e94560; }
+        .card h3 { color: #e94560; margin-bottom: 10px; }
+        .card .value { font-size: 2em; font-weight: bold; }
+        .card .label { color: #888; font-size: 0.9em; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 0 40px; max-width: calc(100% - 80px); }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #2a2a4a; }
+        th { background: #16213e; color: #e94560; }
+        tr:hover { background: #16213e; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 परीक्षण डैशबोर्ड</h1>
+<span>स्थिति: सक्रिय</span>
+</div>
+    <div class="grid">
+        <div class="card">
+            <h3>कुल फाइलें</h3>
+            <div class="value">156</div>
+            <div class="label">12 रिपॉजिटरी में</div>
+        </div>
+        <div class="card">
+            <h3>आज की कमिट्स</h3>
+            <div class="value">42</div>
+            <div class="label">कल से +15%</div>
+        </div>
+        <div class="card">
+            <h3>सक्रिय उपयोगकर्ता</h3>
+            <div class="value">8</div>
+            <div class="label">अभी 3 ऑनलाइन</div>
+        </div>
+        <div class="card">
+            <h3>बिल्ड स्थिति</h3>
+            <div class="value">✅ पास</div>
+            <div class="label">अंतिम रन: 2 मिनट पहले</div>
+        </div>
+    </div>
+    <h2 style="padding: 20px 40px; color: #e94560;">हाल की गतिविधि</h2>
+    <table>
+        <thead>
+            <tr><th>फाइल</th><th>क्रिया</th><th>उपयोगकर्ता</th><th>समय</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>config.json</td><td>संशोधित</td><td>एलिस</td><td>2 मिनट पहले</td></tr>
+            <tr><td>index.html</td><td>निर्मित</td><td>बॉब</td><td>15 मिनट पहले</td></tr>
+            <tr><td>data.xml</td><td>हटाया गया</td><td>चार्ली</td><td>1 घंटा पहले</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>

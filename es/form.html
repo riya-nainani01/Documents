@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form - Git Connector Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f4f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .form-container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); width: 100%; max-width: 500px; }
+        h2 { text-align: center; color: #2d3748; margin-bottom: 25px; }
+        label { display: block; margin-bottom: 5px; color: #4a5568; font-weight: bold; }
+        input, textarea, select { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 14px; }
+        textarea { height: 100px; resize: vertical; }
+        button { width: 100%; padding: 12px; background: #4299e1; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
+        button:hover { background: #3182ce; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Contáctenos</h2>
+        <form action="#" method="POST">
+<label for="name">Nombre Completo</label> <input type="text" id="name" name="name" placeholder="John Doe" required> <label for="email">Dirección de Correo Electrónico</label> <input type="email" id="email" name="email" placeholder="john@example.com" required> <label for="subject">Asunto</label> <select id="subject" name="subject"> <option value="general">Consulta General</option> <option value="support">Soporte Técnico</option> <option value="feedback">Comentarios</option> <option value="bug">Informe de Error</option> </select> <label for="message">Mensaje</label> <textarea id="message" name="message" placeholder="Your message here..." required></textarea> <button type="submit">Enviar Mensaje</button>
+</form>
+    </div>
+</body>
+</html>
