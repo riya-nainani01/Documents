@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "sku": "PROD-001",
+      "name": "Ratón inalámbrico",
+      "category": "Electrónica",
+      "price": 29.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["inalámbrico", "ratón", "periférico"]
+    },
+    {
+      "sku": "PROD-002",
+      "name": "Teclado mecánico",
+      "category": "Electrónica",
+      "price": 89.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["teclado", "mecánico", "juegos"]
+    },
+    {
+      "sku": "PROD-003",
+      "name": "Hub USB-C",
+      "category": "Accesorios",
+      "price": 45.50,
+      "currency": "USD",
+      "inStock": false,
+      "tags": ["usb-c", "hub", "adaptador"]
+    }
+  ]
+}

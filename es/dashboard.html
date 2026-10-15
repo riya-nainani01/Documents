@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Git Connector Test</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; }
+        .header { background: #16213e; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+        .header h1 { font-size: 1.4em; color: #e94560; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 30px 40px; }
+        .card { background: #16213e; border-radius: 10px; padding: 25px; border-left: 4px solid #e94560; }
+        .card h3 { color: #e94560; margin-bottom: 10px; }
+        .card .value { font-size: 2em; font-weight: bold; }
+        .card .label { color: #888; font-size: 0.9em; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 0 40px; max-width: calc(100% - 80px); }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #2a2a4a; }
+        th { background: #16213e; color: #e94560; }
+        tr:hover { background: #16213e; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Tablero de Pruebas</h1>
+<span>Estado: Activo</span>
+</div>
+    <div class="grid">
+        <div class="card">
+            <h3>Archivos Totales</h3>
+            <div class="value">156</div>
+            <div class="label">En 12 repositorios</div>
+        </div>
+        <div class="card">
+            <h3>Commits Hoy</h3>
+            <div class="value">42</div>
+            <div class="label">+15% desde ayer</div>
+        </div>
+        <div class="card">
+            <h3>Usuarios Activos</h3>
+            <div class="value">8</div>
+            <div class="label">3 en línea ahora</div>
+        </div>
+        <div class="card">
+            <h3>Estado de Compilación</h3>
+            <div class="value">✅ Aprobado</div>
+            <div class="label">Última ejecución: hace 2 min</div>
+        </div>
+    </div>
+    <h2 style="padding: 20px 40px; color: #e94560;">Actividad Reciente</h2>
+    <table>
+        <thead>
+            <tr><th>Archivo</th><th>Acción</th><th>Usuario</th><th>Hora</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>config.json</td><td>Modificado</td><td>Alice</td><td>hace 2 min</td></tr>
+            <tr><td>index.html</td><td>Creado</td><td>Bob</td><td>hace 15 min</td></tr>
+            <tr><td>data.xml</td><td>Eliminado</td><td>Charlie</td><td>Hace 1 hora</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>

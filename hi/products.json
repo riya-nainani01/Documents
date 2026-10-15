@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "sku": "PROD-001",
+      "name": "वायरलेस माउस",
+      "category": "इलेक्ट्रॉनिक्स",
+      "price": 29.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["वायरलेस", "माउस", "पेरिफेरल"]
+    },
+    {
+      "sku": "PROD-002",
+      "name": "मैकेनिकल कीबोर्ड",
+      "category": "इलेक्ट्रॉनिक्स",
+      "price": 89.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["कीबोर्ड", "मैकेनिकल", "गेमिंग"]
+    },
+    {
+      "sku": "PROD-003",
+      "name": "यूएसबी-सी हब",
+      "category": "एक्सेसरीज़",
+      "price": 45.50,
+      "currency": "USD",
+      "inStock": false,
+      "tags": ["यूएसबी-सी", "हब", "एडाप्टर"]
+    }
+  ]
+}
