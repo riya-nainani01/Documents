@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company name="TestCorp">
+    <department name="Engineering">
+        <employee id="E001">
+            <firstName>Priya</firstName>
+            <lastName>Sharma</lastName>
+            <designation>Senior Developer</designation>
+            <salary currency="INR">1200000</salary>
+            <joinDate>2021-06-15</joinDate>
+        </employee>
+        <employee id="E002">
+            <firstName>Rahul</firstName>
+            <lastName>Verma</lastName>
+            <designation>DevOps Engineer</designation>
+            <salary currency="INR">1000000</salary>
+            <joinDate>2022-01-10</joinDate>
+        </employee>
+    </department>
+    <department name="Marketing">
+        <employee id="E003">
+            <firstName>Sneha</firstName>
+            <lastName>Patel</lastName>
+            <designation>Marketing Manager</designation>
+            <salary currency="INR">950000</salary>
+            <joinDate>2020-09-01</joinDate>
+        </employee>
+    </department>
+</company>

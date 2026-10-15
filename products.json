@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "sku": "PROD-001",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 29.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["wireless", "mouse", "peripheral"]
+    },
+    {
+      "sku": "PROD-002",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 89.99,
+      "currency": "USD",
+      "inStock": true,
+      "tags": ["keyboard", "mechanical", "gaming"]
+    },
+    {
+      "sku": "PROD-003",
+      "name": "USB-C Hub",
+      "category": "Accessories",
+      "price": 45.50,
+      "currency": "USD",
+      "inStock": false,
+      "tags": ["usb-c", "hub", "adapter"]
+    }
+  ]
+}
